@@ -13,9 +13,12 @@ program
 	.argument('<string>', 'string to split')
 	.option('--first', 'display just the first substring')
 	.option('-s, --separator <char>', 'separator character', ',')
-	.action((str, options) => {
+	.action(async (str, options) => {
 		const limit = options.first ? 1 : undefined
 		console.log(str.split(options.separator, limit))
-  })
+		const res = await fetch('https://uuid.rocks/plain')
+		console.log(res.status)
+		console.log(await res.text())
+	})
 
 program.parse()
