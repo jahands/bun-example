@@ -38,7 +38,7 @@ bun-types@1.0.24:
     "@types/ws" "*"
     undici-types "^5.26.4"
 
-commander@11.1.x:
+commander@11.1.x, commander@^11.1.0:
   version "11.1.0"
   resolved "https://registry.npmjs.org/commander/-/commander-11.1.0.tgz"
   integrity sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@commander-js/extra-typings": "^11.1.0",
+    "commander": "^11.1.0",
     "p-queue": "^8.0.1"
   }
 }
