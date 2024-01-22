@@ -2,6 +2,9 @@
   "name": "bun-example",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "compile": "bun build ./index.ts --compile --outfile dist/mycli"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
